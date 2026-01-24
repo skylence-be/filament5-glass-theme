@@ -1,0 +1,10 @@
+@import './chart-widget.css';
+@import './stats-overview-widget/index.css';
+
+.fi-wi-widget {
+    @apply ring-0;
+}
+
+.fi-wi-widget .fi-section {
+    @apply rounded-3xl;
+}

@@ -1,0 +1,7 @@
+.fi-ta-header {
+    @apply p-0;
+}
+
+.fi-ta-header-heading {
+    @apply inline-block px-3 py-1 tracking-wider rounded-xl text-xs uppercase font-medium bg-gray-100 dark:bg-gray-800;
+}

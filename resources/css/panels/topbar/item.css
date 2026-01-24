@@ -1,0 +1,31 @@
+.fi-topbar-item .fi-topbar-item-btn {
+    @apply px-4 py-2 font-medium rounded-xl;
+}
+
+.fi-topbar-item:not(.fi-active) .fi-topbar-item-btn {
+    @apply hover:bg-gray-400/10 dark:hover:bg-gray-600/10;
+}
+
+.fi-topbar-item.fi-active .fi-topbar-item-btn {
+    @apply bg-gray-300/30 dark:bg-gray-700/30;
+}
+
+.fi-topbar-item.fi-active .fi-topbar-item-label {
+    @apply font-semibold text-primary-600 dark:text-primary-400;
+}
+
+.fi-topbar-item.fi-active .fi-topbar-item-icon {
+    @apply text-primary-600 dark:text-primary-400;
+}
+
+.fi-topbar-nav-groups {
+    @apply gap-x-1;
+}
+
+.fi-topbar nav .fi-dropdown-list-item.fi-color-primary {
+    @apply bg-gray-300/30 dark:bg-gray-700/30;
+}
+
+.fi-topbar nav .fi-dropdown-list-item.fi-color-primary .fi-dropdown-list-item-label {
+    @apply font-semibold;
+}

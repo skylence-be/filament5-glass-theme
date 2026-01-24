@@ -1,0 +1,17 @@
+@import './group.css';
+
+.fi-btn:not(.fi-btn-group .fi-btn) {
+    @apply rounded-xl shadow-md;
+}
+
+.fi-btn.fi-color-custom {
+    @apply ring-1 !ring-custom-950/5;
+}
+
+.fi-btn.fi-color-gray {
+    @apply ring-gray-950/10 dark:ring-white/20;
+}
+
+.fi-btn:not(.fi-color) {
+    @apply ring-1 ring-gray-950/10 dark:ring-white/20;
+}

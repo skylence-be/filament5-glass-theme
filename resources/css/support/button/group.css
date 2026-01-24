@@ -1,0 +1,11 @@
+.fi-btn-group {
+    @apply rounded-xl;
+}
+
+.fi-btn-group .fi-btn:nth-child(1 of .fi-btn) {
+    @apply rounded-es-xl rounded-ss-xl;
+}
+
+.fi-btn-group .fi-btn:nth-last-child(1 of .fi-btn) {
+    @apply rounded-ee-xl rounded-se-xl;
+}

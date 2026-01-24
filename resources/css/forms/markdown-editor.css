@@ -1,0 +1,7 @@
+.fi-fo-markdown-editor .editor-toolbar {
+    @apply bg-gray-50 dark:bg-gray-900/50 border-none;
+}
+
+.fi-fo-markdown-editor .editor-toolbar button {
+    @apply rounded-lg hover:bg-gray-100 dark:hover:bg-gray-800;
+}

@@ -1,0 +1,7 @@
+.fi-fo-repeater-item {
+    @apply divide-none;
+}
+
+.fi-fo-repeater-item-header {
+    @apply bg-gray-50 dark:bg-gray-800;
+}

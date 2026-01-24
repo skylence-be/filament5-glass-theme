@@ -1,0 +1,35 @@
+.fi-tabs-item {
+    @apply rounded-xl;
+}
+
+/* .fi-tabs-item:focus-visible {
+    @apply outline-2 -outline-offset-2 outline-primary-600 dark:outline-primary-400;
+}
+
+.fi-tabs-item:not(.fi-active) {
+    @apply border-transparent focus-visible:bg-transparent;
+} */
+
+.fi-tabs-item.fi-active {
+    @apply bg-gray-100 dark:bg-gray-800 font-medium;
+}
+
+.fi-tabs-item.fi-active .fi-tabs-item-label {
+    @apply text-gray-900 dark:text-gray-100 font-semibold;
+}
+
+/* .fi-tabs-item:not(.fi-active) .fi-tabs-item-icon {
+    @apply text-gray-500 dark:text-gray-400;
+}
+
+.fi-tabs-item:not(.fi-active):hover .fi-tabs-item-icon {
+    @apply text-gray-700 dark:text-gray-200;
+} */
+
+/* .fi-tabs-item .fi-tabs-item-label {
+    @apply leading-6;
+}
+
+.fi-tabs-item:not(.fi-active):not(:hover):focus-visible .fi-tabs-item-label {
+    @apply text-gray-500 dark:text-gray-400;
+} */

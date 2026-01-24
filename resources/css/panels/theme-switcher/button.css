@@ -1,0 +1,11 @@
+.fi-theme-switcher-btn {
+    @apply rounded-xl;
+}
+
+.fi-theme-switcher-btn:not(.fi-active) {
+    @apply hover:bg-gray-400/10 dark:hover:bg-gray-600/10;
+}
+
+.fi-theme-switcher-btn.fi-active {
+    @apply bg-gray-300/30 dark:bg-gray-700/30;
+}

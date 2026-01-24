@@ -1,0 +1,39 @@
+.fi-sidebar-item .fi-sidebar-item-btn {
+    @apply px-4 py-2 font-medium rounded-xl;
+}
+
+.fi-sidebar-item:not(.fi-active) .fi-sidebar-item-btn {
+    @apply hover:bg-gray-400/10 dark:hover:bg-gray-600/10;
+}
+
+.fi-sidebar-item.fi-active .fi-sidebar-item-btn {
+    @apply bg-gray-200/85 dark:bg-gray-800/65;
+}
+
+.fi-page-sub-navigation-sidebar .fi-sidebar-item.fi-active .fi-sidebar-item-btn {
+    @apply bg-gray-200/65 dark:bg-gray-800/65;
+}
+
+.fi-sidebar-item.fi-active .fi-sidebar-item-label {
+    @apply font-semibold;
+}
+
+.fi-sidebar-item.fi-active .fi-sidebar-item-icon {
+    @apply text-primary-600 dark:text-primary-500;
+}
+
+.fi-sidebar-item.fi-active .fi-sidebar-item-grouped-border div.rounded-full {
+    @apply bg-primary-500 dark:bg-primary-600;
+}
+
+.fi-sidebar-nav .fi-dropdown-list-item.fi-color-primary {
+    @apply bg-gray-300/30 dark:bg-gray-700/30;
+}
+
+.fi-sidebar nav .fi-dropdown-list-item.fi-color-primary .fi-dropdown-list-item-label {
+    @apply font-semibold;
+}
+
+.fi-sidebar:not(.fi-sidebar-open) .fi-sidebar-group.fi-active .fi-dropdown-trigger {
+    @apply bg-gray-200 dark:bg-gray-800/65 rounded-xl;
+}

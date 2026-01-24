@@ -1,0 +1,19 @@
+thead tr th {
+    @apply first-of-type:rounded-l-2xl last-of-type:rounded-r-2xl bg-gray-50 dark:bg-transparent;
+}
+
+.fi-ta-header-cell {
+    @apply text-gray-500 dark:text-gray-400;
+}
+
+.fi-ta-summary-header-cell {
+    @apply text-gray-500 dark:text-gray-400;
+}
+
+.fi-table-header-group-cell {
+    @apply border-none;
+}
+
+.fi-table-header-group-cell span {
+    @apply text-gray-500 dark:text-gray-400;
+}

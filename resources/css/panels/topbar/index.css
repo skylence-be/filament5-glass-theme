@@ -1,0 +1,5 @@
+@import './item.css';
+
+.fi-topbar {
+    @apply bg-transparent dark:bg-transparent nested-glass;
+}

@@ -1,0 +1,8 @@
+.fi-ta-record.fi-selected,
+.fi-ta-row.fi-selected {
+    @apply bg-primary-500/10 before:content-none;
+}
+
+.fi-ta-row > td {
+    @apply first-of-type:rounded-l-2xl last-of-type:rounded-r-2xl;
+}

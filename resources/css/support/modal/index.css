@@ -1,0 +1,41 @@
+.fi-modal-close-overlay,
+.fi-sidebar-close-overlay {
+    @apply bg-gray-400/75 dark:bg-gray-900/75 backdrop-blur-sm;
+}
+
+.fi-modal-window {
+    @apply glass rounded-3xl;
+}
+
+.fi-width-screen .fi-modal-window {
+    @apply rounded-none;
+}
+
+.fi-modal:not(.fi-modal-content) .fi-modal-header,
+.fi-modal:not(.fi-modal-content) .fi-modal-footer {
+    @apply bg-transparent;
+}
+
+.fi-modal-header div.rounded-full {
+    @apply ring-1 ring-gray-200 dark:ring-gray-700;
+}
+
+.fi-modal-slide-over .fi-modal-window {
+    @apply mt-2 mr-3 h-[calc(100vh-2rem)];
+}
+
+.fi-modal[data-fi-modal-id="database-notifications"] .fi-modal-slide-over-window {
+    @apply mt-4 mr-4;
+}
+
+.fi-modal-header.fi-sticky {
+    @apply static bg-transparent border-none;
+}
+
+.fi-modal-footer.fi-sticky {
+    @apply bg-gray-50/65 dark:bg-[#131316]/65 backdrop-blur-md;
+}
+
+.fi-no-database .fi-modal-content {
+    @apply divide-none p-0 m-0;
+}

@@ -1,0 +1,49 @@
+{
+  "name": "skylence/filament5-glass-theme",
+  "description": "A modern glassmorphism theme for FilamentPHP.",
+  "license": "proprietary",
+  "keywords": [
+    "Laravel",
+    "Filament",
+    "theme",
+    "glass",
+    "glassmorphism",
+    "modern",
+    "clean",
+    "corporate"
+  ],
+  "homepage": "https://skylence.dev",
+  "authors": [
+    {
+      "role": "Developer",
+      "name": "Skylence",
+      "homepage": "https://skylence.dev"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Skylence\\GlassTheme\\": "src/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Skylence\\GlassTheme\\GlassThemeServiceProvider"
+      ]
+    }
+  },
+  "require": {
+    "php": "^8.2",
+    "andreiio/blade-iconoir": "^4.7",
+    "filament/filament": "^4.0||^5.0"
+  },
+  "minimum-stability": "stable",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true
+  },
+  "require-dev": {
+    "laravel/pint": "^1.22",
+    "phpunit/phpunit": "^12.3"
+  }
+}

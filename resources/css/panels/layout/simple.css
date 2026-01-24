@@ -1,0 +1,3 @@
+.fi-simple-main {
+    @apply ring-0 rounded-3xl bg-white dark:bg-[#131316] shadow-md dark:shadow-black/30;
+}

@@ -1,0 +1,25 @@
+
+
+/* .fi-sidebar-nav .fi-sidebar-group {
+    @apply px-6 py-4;
+}
+
+.fi-sidebar-group-button {
+    @apply relative border border-transparent;
+}
+
+.fi-sidebar-group:has(.fi-active):has(div.fi-dropdown) .fi-sidebar-group-button {
+    @apply relative !px-4 -mx-2 rounded-lg bg-transparent subtle-border subtle-gradient-bg standard-shadow;
+
+    & .fi-sidebar-group-icon {
+        @apply text-primary-600 dark:text-primary-400;
+    }
+}
+
+.fi-sidebar-group .fi-sidebar-group-icon {
+    @apply text-gray-500 dark:text-gray-400;
+}
+
+.fi-sidebar-group .fi-sidebar-group-label {
+    @apply font-medium text-gray-500 dark:text-gray-400;
+} */

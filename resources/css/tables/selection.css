@@ -1,0 +1,11 @@
+.fi-ta-selection-indicator {
+    @apply rounded-2xl bg-primary-500/10 dark:bg-primary-500/10 border-none;
+}
+
+.fi-ta-cell {
+    @apply before:content-none;
+}
+
+:not(table) .fi-ta-selection-indicator {
+    @apply mb-1;
+}

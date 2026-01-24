@@ -1,0 +1,21 @@
+.fi-ta-cell {
+    &:first-of-type {
+        @apply !ps-0;
+
+        &::before {
+            @apply !content-none;
+        }
+    }
+
+    &:last-of-type {
+        @apply !pe-0;
+    }
+}
+
+.fi-ta-record::before {
+    @apply !content-none;
+}
+
+.fi-ta-record:has(input:checked) {
+    @apply bg-primary-500/10;
+}

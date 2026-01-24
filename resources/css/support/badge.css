@@ -1,0 +1,23 @@
+.fi-badge {
+    @apply font-bold ring-0 rounded-full shadow-md;
+}
+
+.fi-badge:not(.fi-color) {
+    @apply bg-gray-500 text-white;
+}
+
+.fi-badge:not(.fi-color) .fi-icon {
+    @apply text-gray-100;
+}
+
+.fi-badge.fi-color {
+    @apply bg-custom-500 text-white;
+}
+
+.fi-badge.fi-color .fi-icon {
+    @apply text-custom-100;
+}
+
+.fi-icon-btn-badge-ctn {
+    @apply -ml-1 bg-transparent;
+}

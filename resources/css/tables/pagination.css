@@ -1,0 +1,35 @@
+.fi-pagination {
+    @apply rounded-2xl bg-gray-50 dark:bg-gray-800 p-2 pl-4;
+}
+
+.fi-pagination-overview {
+    @apply text-gray-500 dark:text-gray-400;
+}
+
+.fi-pagination-records-per-page-select .fi-input-wrp {
+    @apply p-1.5 rounded-2xl ring-0 shadow-md dark:shadow-black/30 dark:bg-gray-900;
+}
+
+.fi-pagination-items {
+    @apply p-1.5 rounded-2xl ring-0 shadow-md dark:shadow-black/30 space-x-1 dark:bg-gray-900;
+}
+
+.fi-pagination-item {
+    @apply border-none;
+}
+
+.fi-pagination-item.fi-active .fi-pagination-item-button {
+    @apply bg-gray-100 dark:bg-gray-800;
+}
+
+.fi-pagination-item.fi-active .fi-pagination-item-button .fi-pagination-item-label {
+    @apply font-semibold text-gray-900 dark:text-gray-100;
+}
+
+.fi-pagination-item-button {
+    @apply rounded-xl group-first/item:rounded-s-xl group-last/item:rounded-e-xl;
+}
+
+.fi-pagination-item-button span {
+    @apply text-gray-500 dark:text-gray-400;
+}

@@ -1,0 +1,42 @@
+@import '../../../../filament/filament/resources/css/theme.css';
+@import './forms/index.css';
+@import './notifications/index.css';
+@import './panels/index.css';
+@import './support/index.css';
+@import './tables/index.css';
+@import './widgets/index.css';
+
+@utility transparency {
+    @apply bg-gray-100/65 dark:bg-[#131316]/65 shadow-md dark:shadow-black/30;
+}
+
+@utility glass {
+    @apply transparency backdrop-blur-md;
+}
+
+@utility nested-glass {
+    @apply before:bg-gray-100/65 dark:before:bg-[#131316]/65 before:backdrop-blur-md before:content-[''] before:absolute before:inset-0 before:z-[-1] before:pointer-events-none;
+}
+
+
+@layer base {
+    * {
+        scrollbar-width: thin;
+        scrollbar-color: rgb(107 114 128 / 0.5) rgb(107 114 128 / 0.1);
+    }
+
+    /* Webkit */
+    ::-webkit-scrollbar {
+        @apply w-1 h-1;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+        @apply bg-gray-500/10;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+        @apply bg-gray-500/25 bg-gray-500/50 rounded-full;
+    }
+}

@@ -1,0 +1,31 @@
+.fi-ta-table {
+    @apply border-separate border-spacing-y-1 divide-none;
+}
+
+.fi-ta-content {
+    @apply mt-1 divide-none space-y-1 bg-transparent;
+}
+
+.fi-ta-content-header {
+    @apply rounded-2xl bg-gray-50 dark:bg-gray-800;
+}
+
+.fi-ta-header-ctn {
+    @apply divide-none;
+}
+
+.fi-ta-content div.grid {
+    @apply bg-transparent;
+}
+
+.fi-ta-record {
+    @apply rounded-2xl;
+}
+
+.fi-ta-filter-indicators {
+    @apply rounded-xl;
+}
+
+.fi-ta-header-toolbar {
+    @apply border-none;
+}

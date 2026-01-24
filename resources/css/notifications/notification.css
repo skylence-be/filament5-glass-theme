@@ -1,0 +1,15 @@
+.fi-no-notification:not(.fi-inline) {
+    @apply ring-0 bg-white/65 dark:bg-gray-800/65 shadow-md dark:shadow-black/30 backdrop-blur-md;
+}
+
+.fi-no-notification {
+    @apply m-2 w-[calc(100%-1rem)] rounded-2xl bg-white dark:bg-gray-900 shadow-md dark:shadow-black/30;
+}
+
+div:has(.fi-no-notification) {
+    @apply before:hidden;
+}
+
+.fi-modal-content:has(.fi-no-notification) div {
+    @apply divide-y-0;
+}

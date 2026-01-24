@@ -1,0 +1,8 @@
+@import './columns/index.css';
+@import './container.css';
+@import './header.css';
+@import './header-cell.css';
+@import './pagination.css';
+@import './row.css';
+@import './selection.css';
+@import './table.css';

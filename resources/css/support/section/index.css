@@ -1,0 +1,49 @@
+.fi-section {
+    @apply ring-0 rounded-3xl;
+}
+
+.fi-section:not(.fi-section-not-contained) {
+    @apply shadow-md dark:shadow-black/30;
+}
+
+.fi-section-footer,
+.fi-section-content-ctn {
+    @apply border-none rounded-2xl;
+}
+
+.fi-section-header {
+    @apply p-4;
+}
+
+.fi-section-header-text-ctn {
+    @apply flex-none;
+}
+
+.fi-section-content-ctn {
+    @apply rounded-2xl;
+}
+
+.fi-section-header {
+    @apply p-4;
+}
+
+.fi-section-header-text-ctn {
+    @apply flex-none;
+}
+
+.fi-section:not(.fi-aside) .fi-section-header-heading:not(:has(+ .fi-section-header-description)) {
+    @apply px-3 py-1 tracking-wider rounded-xl text-xs uppercase font-medium bg-gray-100 dark:bg-gray-800;
+}
+
+.fi-section-header div.flex {
+    @apply justify-between;
+}
+
+.fi-section-header:not(.fi-aside .fi-section-header) div.flex-1 {
+    @apply flex-none;
+}
+
+.fi-section.fi-aside .fi-section-content-ctn,
+.fi-fo-component-ctn .fi-section:not(.fi-aside) {
+    @apply ring-0 rounded-3xl shadow-md dark:shadow-black/30;
+}
